@@ -1,0 +1,63 @@
+    1  git commit -m "initial commit"
+    2  git clone https://github.com/Mezrap/HW_10.git
+    3  git remote -v
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  ls
+    7  ls -a
+    8  nano .gitignore
+    9  notepad .gitignore
+   10  echo text_ignore.txt >> .gitignore
+   11   notepad .gitignore
+   12  git status
+   13  echo -e "\ntext_ignore.txt" >> .gitignore
+   14  git status
+   15  git add .gitignore
+   16  git commit _m "Add text_ignore.txt to .gitignore
+git push
+
+   17  git commit -m "Add text_ignore.txt to .gitignore
+   18  git commit -m "Add text_ignore.txt to .gitignore"
+   19  git push
+   20  git config --global user.name "Mezrap"
+   21  git config --global user.email "bovayurt.it@gmail.com
+   22  git config --global user.email "bovayurt.it@gmail.com
+Git config –list
+   23  Git config –list
+   24  git config --global user.name "Beril Ovayurt"
+   25  git config --global user.email "seninmailin@example.com"
+   26  git config --global user.name "Beril Ovayurt"
+   27  git config --global user.name "Beril Ovayurt"
+   28  $
+   29  git config --global user.name "Mezrap"
+   30  git config --global user.email "bovayurt.it@gmail.com"
+   31  git push
+   32  git log --oneline
+   33  git add .gitignore
+   34  git commit -m "Add text_ignore.txt to .gitignore"
+   35  git remote -v
+   36  git push origin main
+   37  git branch <dEVELOP>
+   38  git branch <Develop> 
+   39  git checkout -b Develop
+   40  touch develop_test.txt
+   41  git add
+   42  git add .Develop
+   43  git add .
+   44  git commit -m "Develop dalında develop_test.txt dosyası açmak"
+   45  git push origin main
+   46  git push origin Develop
+   47  Echo -e "\nBu satır terminalden eklendi." >> develop_test.txt
+   48  sed -i '1iBu satır dosyanın en başına eklendi.' develop_test.txt
+   49  sed -i '7iBu satır 7. satırın öncesine eklendi.' develop_test.txt
+   50  sed -i '7aBu satır 7. satırın sonrasına eklendi.' develop_test.txt
+   51  sed -i '3cBu satır 3. satırın yerine geçti.' develop_test.txt
+   52  git status
+   53  git add .
+   54  git commit -m "develop_test.txt dosyasında terminal üzerinden değişiklik yapıldı"
+   55  git push
+   56  git checkout main
+   57  git merge Develop
+   58  git log
+   59  git push origin main
+   60  history > command_list.csv
