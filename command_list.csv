@@ -24,11 +24,6 @@ git push
    22  git config --global user.email "bovayurt.it@gmail.com
 Git config –list
    23  Git config –list
-   24  git config --global user.name "Beril Ovayurt"
-   25  git config --global user.email "seninmailin@example.com"
-   26  git config --global user.name "Beril Ovayurt"
-   27  git config --global user.name "Beril Ovayurt"
-   28  $
    29  git config --global user.name "Mezrap"
    30  git config --global user.email "bovayurt.it@gmail.com"
    31  git push
