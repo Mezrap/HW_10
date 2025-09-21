@@ -14,8 +14,7 @@
    14  git status
    15  git add .gitignore
    16  git commit _m "Add text_ignore.txt to .gitignore
-git push
-
+   git push
    17  git commit -m "Add text_ignore.txt to .gitignore
    18  git commit -m "Add text_ignore.txt to .gitignore"
    19  git push
